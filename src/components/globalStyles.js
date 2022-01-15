@@ -98,7 +98,16 @@ td {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     transition: all 0.50s linear;
+
+    @media (min-width: 1440px) {
+        
+            background-position: bottom 40vh right 50vw, bottom -91vh left 48vw;
+        
+    }
+    
   }
+
+  
 
   input,
 button,
@@ -125,4 +134,7 @@ p {
   letter-spacing: 0px;
   text-align: left;
 }
+
+
+
   `;

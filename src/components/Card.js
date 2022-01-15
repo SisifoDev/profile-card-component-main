@@ -21,24 +21,24 @@ export default function Card() {
         </UserDetails>
       </CardBody>
       <CardFooter>
-        <div>
+        <FooterData>
           <h2>80k</h2>
           <p>
             <strong>Followers</strong>
           </p>
-        </div>
-        <div>
+        </FooterData>
+        <FooterData>
           <h2>803K</h2>
           <p>
             <strong>Likes</strong>
           </p>
-        </div>
-        <div>
+        </FooterData>
+        <FooterData>
           <h2>1.4k</h2>
           <p>
             <strong>Photos</strong>
           </p>
-        </div>
+        </FooterData>
       </CardFooter>
     </CardWrapper>
   );
@@ -117,4 +117,12 @@ const CardFooter = styled.footer`
   justify-content: space-around;
   align-items: center;
   border-top: 2px solid #e8e9ec;
+  padding: 0 25px;
+`;
+
+const FooterData = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 `;
