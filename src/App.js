@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import styled from "styled-components";
+import { GlobalStyles } from "./components/globalStyles";
+
+import Card from "./components/Card";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <GlobalStyles />
+      <Main>
+        <Card />
+      </Main>
+    </>
   );
 }
 
 export default App;
+
+const Main = styled.main`
+  height: 100vh;
+  weight: 100vw;
+  display: flex;
+  place-content: center;
+  place-items: center;
+`;
