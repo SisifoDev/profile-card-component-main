@@ -33,8 +33,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://gallant-blackwell-ede51f.netlify.app/)
-- Live Site URL: [Add live site URL here](https://gallant-blackwell-ede51f.netlify.app/)
+- Solution URL: [Github solution](https://github.com/SisifoDev/profile-card-component-main)
+- Live Site URL: [live site URL](https://gallant-blackwell-ede51f.netlify.app/)
 
 ## My process
 
@@ -47,4 +47,4 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/SisifoDev)
+- Frontend Mentor - [@sisifodev](https://www.frontendmentor.io/profile/SisifoDev)
