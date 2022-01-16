@@ -97,7 +97,7 @@ td {
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    transition: all 0.50s linear;
+    ${"" /* transition: all 0.50s linear; */}
 
     @media (min-width: 1440px) {
         

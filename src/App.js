@@ -18,7 +18,7 @@ export default App;
 
 const Main = styled.main`
   height: 100vh;
-  weight: 100vw;
+  width: 100vw;
   display: flex;
   place-content: center;
   place-items: center;
